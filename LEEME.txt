@@ -1,0 +1,33 @@
+PROPUESTA 1 — "Valeria Altamira" (oscuro lujo editorial)
+=========================================================
+
+CÓMO ABRIRLA
+- Doble clic en index.html (Chrome, Edge, Firefox o Safari). No necesita internet ni instalar nada:
+  fuentes, librerías de animación, imágenes y videos están dentro de esta carpeta.
+- Para subirla a un hosting, sube la carpeta completa tal cual (index.html en la raíz).
+
+QUÉ INCLUYE
+- Una sola página bilingüe (botón ES / EN arriba a la derecha; recuerda el idioma elegido).
+- Secciones: preloader, hero con video, cifras, biografía, impacto, trayectoria (scroll horizontal en
+  escritorio), el libro (3D), valores, testimonios, conferencias, contacto (formulario + WhatsApp) y footer.
+- Animaciones: smooth scroll (Lenis), GSAP + ScrollTrigger, revelado de texto, parallax, cursor
+  personalizado en escritorio. Respeta "reducir movimiento" del sistema.
+- 100% responsive (probada en 375, 768, 1024, 1440 y 1920 px).
+
+DATOS A REEMPLAZAR ANTES DE PUBLICAR (todo es ficticio)
+- Nombre, cifras, libro, empresas y testimonios son inventados para la propuesta.
+- Correo: contacto@valeriaaltamira.com
+- WhatsApp: +52 81 1234 5678 (enlace https://wa.me/528112345678)
+- Redes sociales, "Comprar", "Leer un capítulo" y avisos legales apuntan a "#".
+- Textos: se editan en index.html (español) y en js/i18n-data.js (español e inglés).
+
+FORMULARIO
+- No requiere servidor: al enviar valida los campos y abre el correo del visitante con el mensaje listo.
+  Si después se quiere recepción automática, se puede conectar a Formspree, Netlify Forms, etc.
+
+ESTRUCTURA
+- index.html ............ la página
+- css/ .................. estilos (fonts, base, secciones)
+- js/ ................... lógica, textos ES/EN (i18n-data.js) y librerías (vendor/)
+- assets/img, assets/video, assets/fonts ... medios generados con Magnific y tipografías
+- assets/manifest.json .. detalle de cada imagen/video generado (prompt, modelo, tamaño)
